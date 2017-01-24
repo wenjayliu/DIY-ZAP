@@ -1,0 +1,130 @@
+
+.container {width:1250px;}
+
+* {
+	box-sizing: border-box;
+}
+
+/*清楚浮动类*/
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+			/* herder */
+.header {width:100%;background-color:gray;text-align:center;}
+.header img {width:200px;align:center;margin:10px;}
+		
+			/* left */
+.left {background-color:#4bb1fa;float:left;width:150px;height:1200px;font:18px arial;text-align:center;padding:30px 0 0 10px;}
+.left ul,.left ul li ul {list-style:none;padding:0;margin:0;}
+.left * {line-height:30px;z-index:10;}
+.left ul li a {display:block;text-decoration:none;color:white;}
+.left ul li a:hover {background-color:blue;}
+
+.left li:hover>ul {display:block;}
+.left>ul>li>ul {display:none;color:white;background-color:#4bb1fa;position:absolute;left:160px;top:187px;}
+.left ul li ul li {padding:0 10px 0 10px;}
+.left ul li ul li:hover {background-color:blue;}															
+
+	
+			/* keyboard  */
+.keyboard {float:left;font:16px calibri;width:800px;margin:20px;}
+
+			/* kbmain container */
+.keyboard2 {clear:both;width:1000px;font:16px calibri;}										
+.vboard {margin:0 10px 10px 0;border:2px solid #4bb1fa;width:1000px;height:500px;position:relative;}
+.vboard h3 {position:absolute;left:10px;top:0px;background-color:#4bb1fa;color:white;margin:0;padding:5px;}
+			/* kbimg container */
+.boardimg {float:left;height:440px;width:550px;}		
+
+.firstimg  {display:block;text-align:center;margin:20px 0 20px 0;}
+.secendimg  {float:left;padding:0px 0 0px 50px;}
+.lastimg  {float:right;margin:0 50px 0 0px;}
+ 	
+.kbintroduce {float:left;width:450px;}
+
+.keyboardhr {color:#4bb1fa;float:left;size:2;width:980px;}
+
+		/* keyboard 2 */
+.rboard {width:500px;}
+.rboad-2 img {float:left;}
+		/* keyboard 3 */
+.i8-rboad1 {float:left;width:200px;padding:20px;}
+.i8-rboad1>p {line-height:0.8em;color:gray;}
+.rm {font:18px arial;color:#4bb1fa;}
+.i8-rboad2 {float:right;margin-top:40px;}
+
+.projs {clear:both;width:500px;text-align:left;background-color:;}
+.projs div {border-bottom:1px dashed #000;}
+.projs div p {margin:0;padding:5px;}
+.prohr { width:300px;}
+
+.multi {width:500px;background:url(http://www.zapcn.net/member/119775/diy/i8-k3.png) no-repeat 150px 90px;height:300px;}
+.multi div {width:200px;background-color:#DCDCDC;margin:30px 0 0 30px;padding:10px;filter:alpha(opacity=50);opacity:0.6;}
+.multi div p {position:relative;}
+.multi span {font-weight:bold;font-size:2em;}
+
+/*akasa*/
+.ak-top-img {
+	width: 1000px;
+
+}
+.ak-top-img img {
+	width: 100%;
+	text-align: center;
+}
+.ak-top-img h4 {
+	padding: 0px 50px;
+	text-align: center; 
+}
+
+.akbox {
+	margin: 20px 0 0 0;
+	border: 2px solid #4bb1fa;
+	width: 1004px;
+	font-size: 16px;
+
+}
+
+.akimg-lB {
+	width: 400px;
+	float: left;
+}
+.akintroduce {
+	width: 550px;
+	float: left;
+}
+
+.akbox ul {
+	font-weight: bold;
+}
+
+.amd-pro {
+
+}
+.akasaimg img {
+	width: 350px;
+	margin: 10px;
+}
+
+.amd-pro {
+	position: relative;
+	display: table-cell;
+	width: 500px;
+	height: 200px;
+	padding: 0 20px;
+	vertical-align: middle;
+}
+.amd-pro img {
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	margin-top: -50px;	
+}
+.amd-pro p {
+
+	margin-left: 120px;
+}
